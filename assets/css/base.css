@@ -1,0 +1,27 @@
+:root{
+    --azul-claro: #2A7AE4;
+    --beje-claro: #F5F5F5;
+    --branco:#FFFFFF;
+    --preto-titulo:#464646;
+    --fonte-padrao: 'Raleway', sans-serif;
+    --azul-contato:#EAF2FD;
+    --branco: #fff;
+    --branco-fundo:#E5E5E5;
+}
+body{
+    font-family: var(--fonte-padrao);
+    background-color: var(--branco-fundo);
+}
+
+@media screen and (min-width: 1025px){
+    .container{
+        display: flex;
+        justify-content: space-around;
+        align-items:baseline;
+        flex-direction: column;
+        margin: 0 auto;
+        width: 70em;
+        
+
+    }
+}

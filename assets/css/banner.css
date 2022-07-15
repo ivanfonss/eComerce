@@ -1,0 +1,76 @@
+.banner{
+    background-image: url(/assets/img/Hero.png);
+    height: 10em;
+    background-size:100%;
+    background-position: center;
+    display: flex;
+    align-items: flex-end;
+    padding: 1em;
+}
+.banner__titulo, .banner__subtitulo, .banner__link{
+    color: var(--branco);
+    font-weight:  700;
+    font-size: 1.5em;
+}
+.banner__subtitulo{
+    font-size: 0.9em;
+    font-weight: 700;
+    margin-top: 0.4em;
+    margin-bottom: 1.2em;
+}
+.banner__link{
+    font-size: 0.9em;
+    font-weight: 400;
+    text-decoration: none;
+    border: 1px solid var(--azul-claro);
+    background-color: var(--azul-claro);
+    padding: 0.5em;
+    margin-top: 2px;
+}
+
+@media screen and (min-width: 768px) {
+    .banner{ 
+        height: 15em;
+    }
+    .banner__titulo, .banner__subtitulo {  
+        font-size: 1.8em;
+    }
+    .banner__subtitulo{
+        font-weight: 500;
+    }
+}
+@media screen and (min-width: 1025px){
+    .banner{ 
+        height: 25em;
+        padding-bottom: 2em;
+    }
+    .banner__container{
+            display: flex;
+            justify-content: space-around;
+            align-items:baseline;
+            flex-direction: column;
+            margin: 0 auto;
+            width: 80em;
+    
+    }
+    .container__banner{
+        display: flex;
+        justify-content: space-around;
+        align-items:baseline;
+        flex-direction: column;
+        margin: 0 auto;
+        width: 80em;
+
+    }
+    .banner__link{
+        font-size: 1.1em;
+        padding: 1.2em;
+
+    }
+    .banner__titulo, .banner__subtitulo {  
+        font-size: 2.5em;
+    }
+    .banner__subtitulo{
+        font-weight: 400;
+    }
+}

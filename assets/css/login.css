@@ -1,0 +1,56 @@
+.login__form--email, .login__form--senha{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    margin-bottom: 1em;
+    background-color: var(--branco);
+    padding: 0.6em;
+    color:#A2A2A2;
+    width: 20em;
+    border-bottom: 1.5px solid #C8C8C8;
+}
+.login__form--email input, .login__form--senha input{
+    resize: none;
+    outline: var(--branco);
+    border: var(--branco);
+    
+}
+.login__form{
+    padding-top:3em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    height: 20em;
+}
+.login__form h2{
+    font-size: 1.2em;
+    font-weight: 700;
+    color: var(--preto-texto);
+    padding: 1em;
+}
+.login__button{
+    width: 10em;
+    height: 2.5em;
+    color: var(--branco);
+    background-color: var(--azul-claro);
+    border: 1px solid var(--azul-claro);
+    cursor: pointer;
+}
+.login__fundo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom:4em;
+
+
+}
+.campo__senha, .campo__email{
+    display: none;
+}
+@media screen and (min-width: 1024px) {
+    .login__fundo{
+        padding-bottom: 7.7em;
+
+    }
+}

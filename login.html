@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AluraGeek</title>
+    <link rel="icon" href="assets/img/joyStick.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Raleway:wght@400;500;700&family=Roboto:wght@300&family=VT323&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/base.css">
+    <link rel="stylesheet" href="assets/css/cabecalho.css">
+    <link rel="stylesheet" href="assets/css/banner.css">
+    <link rel="stylesheet" href="assets/css/produtos.css">
+    <link rel="stylesheet" href="assets/css/contato.css">
+    <link rel="stylesheet" href="assets/css/rodape.css">
+    <link rel="stylesheet" href="assets/css/login.css">
+</head>
+<body class="corpo">
+    <header class="cabecalho">
+
+        <div class="container__cabecalho">
+            <div class="cabecalho__titulo">
+                <a href="index.html"><img src="./assets/img/joyStick.png" alt="Logo"></a>
+                <h2 class="cabecalho__titulo--h2">Alura</h2><h2>Geek</h2>
+            </div>
+        
+            <button type="submit" class= "cabecalho__busca--mobile" ><i class="fa fa-search btn"></i></button>
+            <form class="cabecalho__busca" >
+                <input type="text" name="busca" id="busca" placeholder="O que deseja encontrar">
+                <button type="submit"><i class="fa fa-search btnBusca"></i></button>
+            </form>
+        </div>
+    </header>
+    <main>
+        <section class="login">
+            <div class="login__fundo">
+                <form action="" class="login__form">
+                    <h2>Iniciar Sessão</h2>
+                    <div class="login__form--email">
+                        <label for="email" class="campo__email">Email:</label>
+                        <input  type="email" name="email" id="email" placeholder="Email" required>
+                    </div>
+                    <div class="login__form--senha">
+                        <label for="pass" class="campo__senha">Senha:</label>
+                        <input type="password" id="pass" name="password" minlength="8" placeholder="Senha" required>
+                    </div>
+
+                </form>
+                <input class="login__button" type="submit" value="Enviar">
+            </div>
+        </section>
+        
+
+
+        <section class="contato">
+            <div class="contato__itens">
+                <div class="contato__titulo">
+                    <img src="./assets/img/joyStick.png" alt="Logo">
+                    <h2 class="contato__titulo--h2">Alura</h2><h2>Geek</h2>
+                </div>
+                <ul class="contato__lista">
+                    <li class="lista__item">Quem somos nós</li>
+                    <li class="lista__item">Política de privacidade</li>
+                    <li class="lista__item">Programa fidelidade</li>
+                    <li class="lista__item">Nossas lojas</li>
+                    <li class="lista__item">Quero ser franqueado</li>
+                    <li class="lista__item">Anuncie aqui</li>
+                </ul>
+          </div>
+          <div>
+                <h2 class="form__titulo">Fale conosco</h2>
+                <form class="contato__form">
+                    <div class="form__nome">
+                        <label class="form__label nome__focus" for="">Nome</label>
+                        <input class="form__input nome__input" type="text" placeholder="Seu nome" required>
+                    </div>
+                    <div class="form__mensagem">
+                        <label class="form__label" for=""></label>
+                        <textarea class="form__input" rows="5" placeholder="Escreva sua mensagem"></textarea>
+                    </div>
+                    <button class="form__button" type="submit">Enviar mensagem</button>
+                </form>
+          </div>
+        </section>
+    </main>
+    <footer class="rodape">
+        <p>Desenvolvido por Ivan Fonseca</p>
+        <p>2022</p>
+    </footer>
+
+
+    <script src="./assets/js/main.js"></script>
+    <script src="./assets/js/buscaMobile.js"></script>
+    <script src="./assets/js/nomeForm.js"></script>
+</body>
+</html>
